@@ -1,0 +1,15 @@
+create react app
+
+install dependencies
+set up index.js - import dep, css and react.render
+gitignore -> node modules
+components folder - pages ?
+
+use Random User Api [] --> this will RENDER A TABLE OF EMPLOYEES(FETCH/AJAX) when page is initailly loaded
+
+need functionality of 1. SORT - emp table by at least one     category ??
+  2.FILTER users - by at least one property
+
+
+  create on herkou, and deploy
+  database?
