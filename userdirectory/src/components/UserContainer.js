@@ -13,7 +13,8 @@ class UserContainer extends Component {
 
     grabUsers = () => {
         API.get20users()
-            .then(res => { this.setState({ results: res.data.results }) })
+            // .then(res => console.log(res))
+            .then(res => this.setState({ results: [...res.data.results] }))
             .catch(err => console.log(err))
     };
 
@@ -21,7 +22,16 @@ class UserContainer extends Component {
     render() {
         return (
             <div>
-                <Cards></Cards>
+                {this.state.results && this.state.results.map(user => (<Cards
+                    picture={user.picture.medium}
+                    name={user.name.first}
+                    gender={user.gender}
+                    location={user.location.city}
+                    email={user.email}
+                    cell={user.cell}
+                />)
+                )}
+
             </div>
         )
     }

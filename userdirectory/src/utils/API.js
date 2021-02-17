@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASEURL = 'https://randomuser.me/api/?results=20?exc=login'
+const BASEURL = 'https://randomuser.me/api/?results=20'
 // const GENDERURL = 'https://randomuser.me/api/?gender=female'
 // const NATURL = 'https://randomuser.me/api/?nat=US'
 
