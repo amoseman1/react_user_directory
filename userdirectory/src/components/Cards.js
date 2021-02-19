@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Cards({ picture, name, gender, location, email, cell }) {
+export default function Cards({ picture, name, gender, location, email, cell, search }) {
   return (
-
+    //if/else wraps around the div , if search !== empty and name.includes !==search
     <div className="card">
       <img className="card-img-top"
         src={picture}
@@ -18,7 +18,7 @@ export default function Cards({ picture, name, gender, location, email, cell }) 
     </div>
   )
 }
-
+//pass search value here and with and if/else state., if name.includes({search}) then render card, and only if 
 
 {/* function ResultList(props) {
   return (

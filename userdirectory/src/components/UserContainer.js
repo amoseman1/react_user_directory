@@ -4,6 +4,7 @@ import API from "../utils/API";
 
 class UserContainer extends Component {
     state = {
+        search: "",
         results: []
     };
 
@@ -18,7 +19,7 @@ class UserContainer extends Component {
             .catch(err => console.log(err))
     };
 
-    //dont need a form so no hanldeinoutchange/handleformsubmit?
+    //need an onchange for the search comp
     render() {
         return (
             <div>
