@@ -1,16 +1,45 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+}
+#form {
+  max-width: 40%;
+  margin: 10px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center !important;
+  background-color: rgb(15, 15, 160) !important;
+  margin: 5px;
+  padding: 20px;
+  border: solid black;
+  color: white;
+}
+
+table {
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
