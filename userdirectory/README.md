@@ -18,7 +18,7 @@ npm i -for dependencies, and npm start
 
  <img src="./src/assets/userDirect.png">
  <img src="./src/assets/userDirect2.png">
- <img src="./src/assets/userDirect3.png>
+ <img src="./src/assets/userDirect3.png">
 
 [Deployed URL](https://github.com/amoseman1/react_user_directory/tree/master/.)
 
