@@ -44,7 +44,7 @@ class UserContainer extends Component {
                     search={this.state.search}
                     handleInputChange={this.handleInputChange}
                     handleFormSubmit={this.handleFormSubmit} />
-                <p>Type an employee's name to <strong>Search</strong> above or click on <strong>Name</strong> below to sort alphabetically by Firstname</p>
+                <p>Type an employee's name to <strong>Search</strong> above or click on <strong>Name</strong> below to sort alphabetically by first name</p>
                 <table id="table">
                     <thead>
                         <tr>

@@ -1,46 +1,43 @@
+# User Directory
 
-  # User Directory
+![Liscense](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  ![Liscense](https://img.shields.io/badge/license-MIT-blue.svg)
+## Description
 
-  ## Description
+This application allows an employee or manager to view all employees as a list. They have the added functionality of searching in the input box for a name, or sorting the list alphabetically by first name.
 
-  This application allows an employee or manager to view all employees as a list. They have the added functionality of searching in the input box for a name, or sorting the list alphabetically by firstname.
+## Table Of Contents:
 
-  ## Table Of Contents:
+-[Installation](#Installation) </br> -[Usage](#Usage) </br> -[Liscense](#Liscense) </br> -[Contributing](#Contributing) </br> -[Tests](#Tests) </br> -[Questions](#Questions)
 
-  -[Installation](#Installation) </br>
-  -[Usage](#Usage) </br>
-  -[Liscense](#Liscense) </br> 
-  -[Contributing](#Contributing) </br> 
-  -[Tests](#Tests) </br>
-  -[Questions](#Questions)
+## Installation
 
-  ## Installation
+npm i -for dependencies, and npm start
 
-  npm i -for dependencies, and npm start 
+## Usage
 
-  ## Usage
+ <img src="/src/assets/userDirect.png">
+ <img src="/src/assets/userDirect2.png">
+ <img src="/src/assets/userDirect3.png>
 
-  screenshot,[] <img src= >, deployed app URL()
+[Deployed URL](https://github.com/amoseman1/react_user_directory)
 
-  ## Liscense 
+## Liscense
 
-  For more information about the liscense chosen, follow the link below:
-  [Liscense](https://opensource.org/liscenses/MIT)
-  
-  ## Contributing
+For more information about the liscense chosen, follow the link below:
+[Liscense](https://opensource.org/liscenses/MIT)
 
-  Amy Moseman
+## Contributing
 
-  ## Tests
+Amy Moseman
 
-  N/A
+## Tests
 
-  ## Questions
+N/A
 
-  If you have any questions about this repo, open an issue or contact me directly at **amoseman18@gmail.com**. </br>
-  You can find more of my work at Github: [amoseman](https://github.com/amoseman/)
+## Questions
 
-  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
-  
+If you have any questions about this repo, open an issue or contact me directly at **amoseman18@gmail.com**. </br>
+You can find more of my work at Github: [amoseman](https://github.com/amoseman/)
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
